@@ -1,0 +1,64 @@
+
+ *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/*.clearfix{
+  display:block;
+  content:="";
+  clear:both;
+}
+*/
+header{
+  width:100%;
+  margin:0 auto;
+}
+
+.head-title{
+  /*margin-top:20px;
+  margin-left:20px;*/
+  padding:20px;
+}
+
+.main-visual{
+  width:100%;
+  height:400px;
+  background-image:url("img/mv.jpg");
+  background-size:cover;
+  background-position:bottom;
+}
+
+main{
+  width:840px;
+  margin:50px auto;
+  /*padding-top:50px;*/
+
+}
+
+/*.servise-item{
+  padding-bottom:30px;
+  margin-bottom:30px;
+  border-bottom:1px solid gray;
+}*/
+.service1{
+  padding-bottom:30px;
+  margin-bottom:30px;
+  border-bottom:1px solid gray;
+}
+.service2{
+  padding-bottom:30px;
+  margin-bottom:30px;
+  border-bottom:1px solid gray;
+}
+.service3{
+  padding-bottom:30px;
+  margin-bottom:30px;
+  border-bottom:1px solid gray;
+}
+.service4{
+  padding-bottom:30px;
+  margin-bottom:30px;
+  border-bottom:1px solid gray;
+}
