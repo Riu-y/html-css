@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+main{
+	width:960px;
+	/*display:inline-block;*/
+	margin:50px auto;
+}
+
+.list-area{
+	padding-bottom:50px;
+	/*margin:0 auto;*/
+}
+
+.list-text{
+	font-family:'Avenir','Corbel','Gothic';
+}
+
+.list{
+	padding:20px;
+	list-style: none;
+}
+.list:nth-child(odd){
+	background-color:lightgrey;
+}
+
+/*.box-area{
+	padding:10px 0;
+}*/
+
+.box{
+	background-color: #ffd700;
+	width:30%;
+	height:200px;
+	margin-bottom:40px;
+	margin-right: 5%;
+	float:left;
+}
+
+
+.box:first-child,
+.box:last-child,
+.box:nth-child(5){
+  background-color: #ff8c00;
+}
+
+
+.box:nth-child(3n){
+	margin-right:0;
+}
+
+.box:nth-last-child(-n+3){
+	margin-bottom: 0;
+}
+
+
+/*.box:nth-child(1),
+.box:nth-child(4),
+.box:nth-child(7){
+	margin-right:5%;
+}
+
+.box:nth-child(3n){
+	margin-left:5%;
+}
+
+
+.box:nth-child(1),
+.box:nth-child(5),
+.box:nth-child(9){
+	background-color:#ff9b32;
+}
+
+.box:nth-child(n+2):nth-child(-n+4),
+.box:nth-child(n+6):nth-child(-n+8){
+	background-color:#ffd700;
+}
+*/
