@@ -31,23 +31,7 @@ main{
 	top:0;
 	left:0;
 }
-.flow-box2{
-	width:300px;
-	border: solid 1px #000000;
-	padding:10px;
-	float:left;
-	margin:10px;
-	position:relative;
-}
 
-.label2{
-	background-color:blue;
-	color:#fff;
-	padding:5px;
-	position:absolute;
-	top:0;
-	left:0;
-}
 .img01{
 	height:150px;
 	background-image: url(img/flow01.png);
