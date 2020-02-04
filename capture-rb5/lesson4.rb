@@ -1,0 +1,3 @@
+name="yagishitaryusuke"
+
+puts name
